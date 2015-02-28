@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+	Options +FollowSymlinks
+	RewriteEngine On
+	
+	RewriteRule ^index.html$ index.php?page=home
+	RewriteRule ^kebab.html$ pages/kebab.php?page=kebab
+	RewriteRule ^page2.html$ index.php?page=page2
+	RewriteRule ^page3.html$ index.php?page=page3
+	
+	ErrorDocument 404 /index.php?page=404
+	
+</IfModule>

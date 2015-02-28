@@ -1,0 +1,43 @@
+.logo{
+	margin: 10 0 10 0;
+}
+nav{
+	background-color: #BB0000;
+}
+nav ul li{
+	
+	
+}
+nav a{
+	color: #ffffff;
+}
+footer{
+	background-color: #BB0000;
+	color: #ffffff;
+	padding: 10 0 10 0;
+	margin-top: 10px;
+	text-align: center;
+	
+}
+footer a{
+	color: #ffffff;
+	display: inline;
+	margin-right: 5px;
+}
+.carousel-caption{
+	background-color: #BB0000;
+	border-radius: 30px;
+	padding-top: -20px;
+	width: 700px;
+	margin-left:-200px;
+	
+}
+.carousel-caption h3{
+	font-size: 1.2 em;
+	font-style: italic;
+	margin-top: -10px;
+	margin-left:-100px;
+}
+.carousel-caption p{
+
+}
